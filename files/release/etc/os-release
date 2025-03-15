@@ -1,0 +1,13 @@
+NAME="ChomkeOS"
+VERSION="41"
+RELEASE_TYPE=stable
+ID=chomkeos
+ID_LIKE=fedora
+VERSION_ID=41
+PLATFORM_ID="platform:f41"
+PRETTY_NAME="ChomkeOS 41 (Angi Azazel)"
+ANSI_COLOR="0;35"
+LOGO=chomkeos-logo
+DEFAULT_HOSTNAME="chomkeos"
+VARIANT="KDE"
+VARIANT_ID="kde"
