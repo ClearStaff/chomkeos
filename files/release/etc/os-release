@@ -9,5 +9,5 @@ PRETTY_NAME="ChomkeOS 41 (Angi Azazel)"
 ANSI_COLOR="0;35"
 LOGO=chomkeos-logo
 DEFAULT_HOSTNAME="chomkeos"
-VARIANT="KDE"
+VARIANT="Desktop Edition"
 VARIANT_ID="kde"
