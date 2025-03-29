@@ -1,27 +1,28 @@
-- type: rpm-ostree
-  remove:
-    - fedora-bookmarks
-    - firefox
-    - firefox-langpacks
-    - kate
-    - kate-krunner-plugin
-    - kate-libs
-    - kate-plugins
-    - kcharselect
-    - kdebugsettings
-    - kfind
-    - khelpcenter
-    - kjournald
-    - kjournald-libs
-    - krfb
-    - krfb-libs
-    - kwrite
-    - kwrited
-    - plasma-systemmonitor
-    - spectacle
+modules:
+  - type: rpm-ostree
+    remove:
+      - fedora-bookmarks
+      - firefox
+      - firefox-langpacks
+      - kate
+      - kate-krunner-plugin
+      - kate-libs
+      - kate-plugins
+      - kcharselect
+      - kdebugsettings
+      - kfind
+      - khelpcenter
+      - kjournald
+      - kjournald-libs
+      - krfb
+      - krfb-libs
+      - kwrite
+      - kwrited
+      - plasma-systemmonitor
+      - spectacle
 
-- type: default-flatpaks
-  notify: true
-  system:
-    install:
-      - io.gitlab.librewolf-community
+  - type: default-flatpaks
+    notify: true
+    system:
+      install:
+        - io.gitlab.librewolf-community
