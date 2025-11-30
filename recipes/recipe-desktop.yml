@@ -1,0 +1,41 @@
+---
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+
+# image will be published to ghcr.io/ClearStaff/chomkeos
+name: chomkeos
+description: Customized Kinoite based on Aurora.
+
+# the base image to build on top of (FROM) and the version tag to use
+base-image: ghcr.io/ublue-os/aurora
+image-version: stable # latest is also supported if you want new updates ASAP
+
+# Step-by-step image customizations
+modules:
+  - type: files
+    files:
+      - source: system
+        destination: /
+
+  - type: dnf
+    repos:
+      copr:
+        - atim/starship
+    install:
+      packages:
+        - micro
+        - starship
+    remove:
+      packages:
+        - powertop
+
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        # Flathub used by default
+        install:
+          - net.rpcs3.RPCS3
+      - scope: user # Add Flathub user repo
+
+  # Enable image signing
+  - type: signing
