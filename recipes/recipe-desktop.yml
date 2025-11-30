@@ -35,6 +35,8 @@ modules:
         # Flathub used by default
         install:
           - net.rpcs3.RPCS3
+        # Remove Aurora flatpaks
+        remove: ["*"]
       - scope: user # Add Flathub user repo
 
   # Enable image signing
