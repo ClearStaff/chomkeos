@@ -6,7 +6,7 @@ name: chomkeos
 description: Customized Kinoite based on Aurora.
 
 base-image: ghcr.io/ublue-os/kinoite-main
-image-version: stable
+image-version: latest
 
 # Step-by-step image customizations
 modules:
