@@ -15,15 +15,26 @@ modules:
       - source: system
         destination: /
 
-  #- type: dnf
+  - type: dnf
     #repos:
       #copr:
       #  - developer/repo
-    #install:
-      #packages:
-      #  - package
-    #remove:
-    #  packages:
+    install:
+      packages:
+        - gparted
+    remove:
+      packages:
+        - krfb
+        - fcitx5
+        - filelight
+        - kate
+        - kwrite
+        - kfind
+        - kdebugsettings
+        - khelpcenter
+        - plasma-welcome
+        - kjournald
+        - kde-partitionmanager
 
   - type: default-flatpaks
     configurations:
