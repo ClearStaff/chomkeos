@@ -5,7 +5,7 @@
 name: chomkeos
 description: Customized Kinoite based on Aurora.
 
-base-image: ghcr.io/ublue-os/aurora
+base-image: ghcr.io/ublue-os/kinoite-main
 image-version: stable
 
 # Step-by-step image customizations
@@ -15,34 +15,15 @@ modules:
       - source: system
         destination: /
 
-  - type: dnf
+  #- type: dnf
     #repos:
       #copr:
       #  - developer/repo
     #install:
       #packages:
       #  - package
-    remove:
-      packages:
-        - borgbackup
-        - foo2zjs
-        - glow
-        - gum
-        - igt-gpu-tools
-        - input-remapper
-        - kcm-fcitx5
-        - krb5-workstation
-        - libxcrypt-compat
-        - powertop
-        - rclone
-        - restic
-        - samba-winbind
-        - samba-winbind-clients
-        - samba-winbind-modules
-        - tmux
-        - virtualbox-guest-additions
-        - wireguard-tools
-        - wl-clipboard
+    #remove:
+    #  packages:
 
   - type: default-flatpaks
     configurations:
@@ -51,7 +32,7 @@ modules:
         # Flathub used by default
         #install:
         #  - com.someone.SomeApp
-        # Remove Aurora flatpaks
+        # Remove Kinoite flatpaks
         remove: ["*"]
       - scope: user # Add Flathub user repo
 
