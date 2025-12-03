@@ -35,14 +35,16 @@ modules:
         - plasma-welcome
         - kjournald
         - kde-partitionmanager
+        - firefox
+        - firefox-langpacks
 
   - type: default-flatpaks
     configurations:
       - notify: true
         scope: system
         # Flathub used by default
-        #install:
-        #  - com.someone.SomeApp
+        install:
+          - app.zen_browser.zen
         # Remove Kinoite flatpaks
         remove: ["*"]
       - scope: user # Add Flathub user repo
