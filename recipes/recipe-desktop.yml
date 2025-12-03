@@ -16,12 +16,21 @@ modules:
         destination: /
 
   - type: dnf
-    #repos:
-      #copr:
-      #  - developer/repo
+    repos:
+      nonfree: rpmfusion
+    repos:
+      copr:
+        - atim/heroic-games-launcher
+        - g3tchoo/prismlauncher
+      files:
+        - vscode.repo
     install:
       packages:
         - gparted
+        - steam # Flatpak Steam sometimes has issues, also hard game modding
+        - heroic-games-launcher-bin # Like Steam, Flatpak has issues installing games outside of stores
+        - prismlauncher # Like with other game launchers, Flatpak is annoying to deal with
+        - code # Try using VSCode with Flatpak
     remove:
       packages:
         - krfb
@@ -44,7 +53,7 @@ modules:
         scope: system
         # Flathub used by default
         install:
-          - app.zen_browser.zen
+          - app.zen_browser.zen # Seems like a good idea to have browser in a bubblewrap
         # Remove Kinoite flatpaks
         remove: ["*"]
       - scope: user # Add Flathub user repo
