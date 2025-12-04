@@ -46,6 +46,8 @@ modules:
         - krfb
         - kwrite
         - plasma-welcome
+        # Attemp to fix steam
+        - libfdk-aac # Because it obsoletes things needed by Steam...
 
   - type: default-flatpaks
     configurations:
