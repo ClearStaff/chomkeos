@@ -18,34 +18,34 @@ modules:
   - type: dnf
     repos:
       nonfree: rpmfusion
-    repos:
       copr:
         - atim/heroic-games-launcher
-        - g3tchoo/prismlauncher
       files:
         - vscode.repo
     install:
       packages:
+        # System administration
         - gparted
-        - steam # Flatpak Steam sometimes has issues, also hard game modding
-        - heroic-games-launcher-bin # Like Steam, Flatpak has issues installing games outside of stores
-        - prismlauncher # Like with other game launchers, Flatpak is annoying to deal with
+        # Gaming
         - code # Try using VSCode with Flatpak
+        - heroic-games-launcher-bin # Like Steam, Flatpak has issues installing games outside of stores
+        - protontricks # Like with Steam
+        - steam # Flatpak Steam sometimes has issues, also hard game modding
     remove:
       packages:
-        - krfb
         - fcitx5
         - filelight
-        - kate
-        - kwrite
-        - kfind
-        - kdebugsettings
-        - khelpcenter
-        - plasma-welcome
-        - kjournald
-        - kde-partitionmanager
         - firefox
         - firefox-langpacks
+        - kate
+        - kde-partitionmanager
+        - kdebugsettings
+        - kfind
+        - khelpcenter
+        - kjournald
+        - krfb
+        - kwrite
+        - plasma-welcome
 
   - type: default-flatpaks
     configurations:
@@ -53,10 +53,25 @@ modules:
         scope: system
         # Flathub used by default
         install:
-          - app.zen_browser.zen # Seems like a good idea to have browser in a bubblewrap
+          # General idea, if something has no issues working as flatpak then it should be flatpak
+          # Gaming
+          - org.prismlauncher.PrismLauncher
+          # Graphical work
+          - org.gimp.GIMP
+          - org.blender.Blender
+          # Internet
+          - app.zen_browser.zen
+          - com.discordapp.Discord
         # Remove Kinoite flatpaks
         remove: ["*"]
       - scope: user # Add Flathub user repo
+
+  - type: os-release
+    properties:
+      ID: chomkeos
+      NAME: ChomkeOS
+      PRETTY_NAME: ChomkeOS
+      ID_LIKE: fedora
 
   # Enable image signing
   - type: signing
