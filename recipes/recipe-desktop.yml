@@ -49,7 +49,7 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true
+      - notify: false
         scope: system
         # Flathub used by default
         install:
