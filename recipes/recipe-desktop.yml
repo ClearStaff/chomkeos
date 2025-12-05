@@ -19,7 +19,7 @@ modules:
     repos:
       copr:
         - atim/heroic-games-launcher
-        - lizardbyte/stable
+        - lizardbyte/beta
       files:
         - vscode.repo
     install:
