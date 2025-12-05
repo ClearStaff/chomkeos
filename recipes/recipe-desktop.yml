@@ -19,6 +19,7 @@ modules:
     repos:
       copr:
         - atim/heroic-games-launcher
+        - lizardbyte/stable
       files:
         - vscode.repo
     install:
@@ -28,6 +29,7 @@ modules:
         # Gaming
         - code # Try using VSCode with Flatpak
         - heroic-games-launcher-bin # Like Steam, Flatpak has issues installing games outside of stores
+        - Sunshine
     remove:
       packages:
         - fcitx5
