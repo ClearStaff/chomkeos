@@ -17,7 +17,6 @@ modules:
 
   - type: dnf
     repos:
-      nonfree: rpmfusion
       copr:
         - atim/heroic-games-launcher
       files:
@@ -29,8 +28,6 @@ modules:
         # Gaming
         - code # Try using VSCode with Flatpak
         - heroic-games-launcher-bin # Like Steam, Flatpak has issues installing games outside of stores
-        - protontricks # Like with Steam
-        - steam # Flatpak Steam sometimes has issues, also hard game modding
     remove:
       packages:
         - fcitx5
@@ -46,8 +43,6 @@ modules:
         - krfb
         - kwrite
         - plasma-welcome
-        # Attemp to fix steam
-        - libfdk-aac # Because it obsoletes things needed by Steam...
 
   - type: default-flatpaks
     configurations:
@@ -59,8 +54,11 @@ modules:
           # Gaming
           - org.prismlauncher.PrismLauncher
           # Graphical work
-          - org.gimp.GIMP
+          - com.github.Matoking.protontricks
+          - com.valvesoftware.Steam
+          - com.valvesoftware.Steam.CompatibilityTool.Proton-GE
           - org.blender.Blender
+          - org.gimp.GIMP
           # Internet
           - app.zen_browser.zen
           - com.discordapp.Discord
