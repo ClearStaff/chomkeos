@@ -68,6 +68,12 @@ modules:
         remove: ["*"]
       - scope: user # Add Flathub user repo
 
+  - type: brew
+    update-interval: 1d
+    upgrade-interval: 1d
+    nofile-limits: true
+    brew-analytics: false
+
   - type: os-release
     properties:
       ID: chomkeos
