@@ -77,6 +77,12 @@ modules:
       - source: catppuccin
         destination: /
 
+  # Install default settings
+  - type: files
+    files:
+      - source: defaults
+        destination: /
+
   # os-release
   - type: os-release
     properties:
