@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinFrappeBlue
 
 [kcminputrc][Mouse]
-cursorTheme=Catppuccin-Frappe-Blue-Cursors
+cursorTheme=catppuccin-frappe-blue-cursors
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

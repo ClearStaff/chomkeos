@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinMacchiatoSky
 
 [kcminputrc][Mouse]
-cursorTheme=Catppuccin-Macchiato-Sky-Cursors
+cursorTheme=catppuccin-macchiato-sky-cursors
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

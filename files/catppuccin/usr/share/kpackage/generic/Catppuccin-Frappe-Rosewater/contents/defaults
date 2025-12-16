@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinFrappeRosewater
 
 [kcminputrc][Mouse]
-cursorTheme=Catppuccin-Frappe-Rosewater-Cursors
+cursorTheme=catppuccin-frappe-rosewater-cursors
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

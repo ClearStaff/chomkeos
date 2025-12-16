@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinLatteSapphire
 
 [kcminputrc][Mouse]
-cursorTheme=Catppuccin-Latte-Sapphire-Cursors
+cursorTheme=catppuccin-latte-sapphire-cursors
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinMacchiatoPeach
 
 [kcminputrc][Mouse]
-cursorTheme=Catppuccin-Macchiato-Peach-Cursors
+cursorTheme=catppuccin-macchiato-peach-cursors
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

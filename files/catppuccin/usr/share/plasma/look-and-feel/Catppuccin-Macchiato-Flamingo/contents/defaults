@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinMacchiatoFlamingo
 
 [kcminputrc][Mouse]
-cursorTheme=Catppuccin-Macchiato-Flamingo-Cursors
+cursorTheme=catppuccin-macchiato-flamingo-cursors
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

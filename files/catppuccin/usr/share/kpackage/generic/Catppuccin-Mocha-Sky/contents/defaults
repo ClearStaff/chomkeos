@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinMochaSky
 
 [kcminputrc][Mouse]
-cursorTheme=Catppuccin-Mocha-Sky-Cursors
+cursorTheme=catppuccin-mocha-sky-cursors
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

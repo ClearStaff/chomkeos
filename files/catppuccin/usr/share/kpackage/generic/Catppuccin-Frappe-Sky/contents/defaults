@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinFrappeSky
 
 [kcminputrc][Mouse]
-cursorTheme=Catppuccin-Frappe-Sky-Cursors
+cursorTheme=catppuccin-frappe-sky-cursors
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

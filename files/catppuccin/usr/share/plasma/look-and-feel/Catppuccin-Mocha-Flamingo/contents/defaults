@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinMochaFlamingo
 
 [kcminputrc][Mouse]
-cursorTheme=Catppuccin-Mocha-Flamingo-Cursors
+cursorTheme=catppuccin-mocha-flamingo-cursors
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=

@@ -2,7 +2,7 @@
 ColorScheme=CatppuccinFrappeLavender
 
 [kcminputrc][Mouse]
-cursorTheme=Catppuccin-Frappe-Lavender-Cursors
+cursorTheme=catppuccin-frappe-lavender-cursors
 
 [kwinrc][org.kde.kdecoration2]
 ButtonsOnLeft=
