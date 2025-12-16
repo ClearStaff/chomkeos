@@ -10,11 +10,6 @@ image-version: latest
 
 # Step-by-step image customizations
 modules:
-  - type: files
-    files:
-      - source: system
-        destination: /
-
   - type: dnf
     repos:
       copr:
@@ -27,8 +22,8 @@ modules:
         # System administration
         - gparted
         # Gaming
-        - code # Try using VSCode with Flatpak
-        - heroic-games-launcher-bin # Like Steam, Flatpak has issues installing games outside of stores
+        - code # I hate using VSCode with Flatpak
+        - heroic-games-launcher-bin # Flatpak Heroic has issues installing games outside of stores
         - Sunshine
     remove:
       packages:
@@ -74,6 +69,12 @@ modules:
     upgrade-interval: 1d
     nofile-limits: true
     brew-analytics: false
+
+  # Install Catppuccin theme
+  - type: files
+    files:
+      - source: catppuccin
+        destination: /
 
   # os-release
   - type: os-release
