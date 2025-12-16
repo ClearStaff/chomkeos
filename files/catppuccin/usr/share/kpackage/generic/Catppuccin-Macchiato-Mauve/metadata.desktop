@@ -10,4 +10,3 @@ X-KDE-PluginInfo-Name=Catppuccin-Macchiato-Mauve
 X-KDE-PluginInfo-Version=0.2.6
 X-KDE-PluginInfo-Website=github.com/catppuccin/KDE
 X-KDE-ServiceTypes=Plasma/LookAndFeel
-X-KPackage-Dependencies=kns://aurorae.knsrc/api.kde-look.org/2135226
