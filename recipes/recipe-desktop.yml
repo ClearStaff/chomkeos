@@ -21,6 +21,7 @@ modules:
       packages:
         # System administration
         - gparted
+        - inotify-tools
         # Gaming
         - code # I hate using VSCode with Flatpak
         - heroic-games-launcher-bin # Flatpak Heroic has issues installing games outside of stores
