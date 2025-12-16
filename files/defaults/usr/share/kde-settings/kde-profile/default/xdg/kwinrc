@@ -1,0 +1,15 @@
+[Effect-translucency]
+MoveResize=90
+
+[Plugins]
+translucencyEnabled=true
+wobblywindowsEnabled=true
+
+[Tiling]
+padding=4
+
+[Wayland]
+InputMethod[$d]
+
+[Xwayland]
+Scale=1
