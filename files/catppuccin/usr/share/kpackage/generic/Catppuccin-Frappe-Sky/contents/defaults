@@ -1,0 +1,17 @@
+[kdeglobals][General]
+ColorScheme=CatppuccinFrappeSky
+
+[kcminputrc][Mouse]
+cursorTheme=Catppuccin-Frappe-Sky-Cursors
+
+[kwinrc][org.kde.kdecoration2]
+ButtonsOnLeft=
+ButtonsOnRight=IAX
+
+
+
+[plasmarc][Theme]
+name=default
+
+[KSplash]
+Theme=Catppuccin-Frappe-Sky-splash

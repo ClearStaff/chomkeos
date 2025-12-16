@@ -1,0 +1,17 @@
+[kdeglobals][General]
+ColorScheme=CatppuccinMochaMaroon
+
+[kcminputrc][Mouse]
+cursorTheme=Catppuccin-Mocha-Maroon-Cursors
+
+[kwinrc][org.kde.kdecoration2]
+ButtonsOnLeft=
+ButtonsOnRight=IAX
+
+
+
+[plasmarc][Theme]
+name=default
+
+[KSplash]
+Theme=Catppuccin-Mocha-Maroon-splash

@@ -1,0 +1,17 @@
+[kdeglobals][General]
+ColorScheme=CatppuccinMacchiatoGreen
+
+[kcminputrc][Mouse]
+cursorTheme=Catppuccin-Macchiato-Green-Cursors
+
+[kwinrc][org.kde.kdecoration2]
+ButtonsOnLeft=
+ButtonsOnRight=IAX
+
+
+
+[plasmarc][Theme]
+name=default
+
+[KSplash]
+Theme=Catppuccin-Macchiato-Green-splash

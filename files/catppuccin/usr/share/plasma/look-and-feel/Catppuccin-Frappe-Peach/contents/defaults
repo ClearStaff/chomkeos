@@ -1,0 +1,17 @@
+[kdeglobals][General]
+ColorScheme=CatppuccinFrappePeach
+
+[kcminputrc][Mouse]
+cursorTheme=Catppuccin-Frappe-Peach-Cursors
+
+[kwinrc][org.kde.kdecoration2]
+ButtonsOnLeft=
+ButtonsOnRight=IAX
+
+
+
+[plasmarc][Theme]
+name=default
+
+[KSplash]
+Theme=Catppuccin-Frappe-Peach-splash

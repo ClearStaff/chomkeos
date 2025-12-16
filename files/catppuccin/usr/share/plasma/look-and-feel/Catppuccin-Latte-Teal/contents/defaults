@@ -1,0 +1,17 @@
+[kdeglobals][General]
+ColorScheme=CatppuccinLatteTeal
+
+[kcminputrc][Mouse]
+cursorTheme=Catppuccin-Latte-Teal-Cursors
+
+[kwinrc][org.kde.kdecoration2]
+ButtonsOnLeft=
+ButtonsOnRight=IAX
+
+
+
+[plasmarc][Theme]
+name=default
+
+[KSplash]
+Theme=Catppuccin-Latte-Teal-splash

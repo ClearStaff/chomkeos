@@ -1,0 +1,17 @@
+[kdeglobals][General]
+ColorScheme=CatppuccinMacchiatoFlamingo
+
+[kcminputrc][Mouse]
+cursorTheme=Catppuccin-Macchiato-Flamingo-Cursors
+
+[kwinrc][org.kde.kdecoration2]
+ButtonsOnLeft=
+ButtonsOnRight=IAX
+
+
+
+[plasmarc][Theme]
+name=default
+
+[KSplash]
+Theme=Catppuccin-Macchiato-Flamingo-splash

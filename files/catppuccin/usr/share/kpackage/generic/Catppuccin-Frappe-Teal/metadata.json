@@ -1,0 +1,19 @@
+{
+    "KPackageStructure": "Plasma/LookAndFeel",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "core@catppuccin.com",
+                "Name": "Catppuccin"
+            }
+        ],
+        "Category": "Global Themes (Plasma 6)",
+        "Dependencies": [
+        ],
+        "EnabledByDefault": true,
+        "Id": "Catppuccin-Frappe-Teal",
+        "License": "MIT",
+        "Name": "Catppuccin Frappe Teal",
+        "Version": "0.2.6"
+    }
+}
