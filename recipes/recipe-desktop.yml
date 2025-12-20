@@ -3,7 +3,7 @@
 
 # image will be published to ghcr.io/ClearStaff/chomkeos
 name: chomkeos
-description: Customized Kinoite based on Aurora.
+description: Customized Kinoite based on UBlue.
 
 base-image: ghcr.io/ublue-os/kinoite-main
 image-version: latest
@@ -78,6 +78,12 @@ modules:
       - source: catppuccin
         destination: /
 
+  # Install branding
+  - type: files
+    files:
+      - source: branding
+        destination: /
+
   # Install default settings
   - type: files
     files:
@@ -91,6 +97,19 @@ modules:
       NAME: ChomkeOS
       PRETTY_NAME: ChomkeOS
       ID_LIKE: fedora
+      LOGO: chomkeos-logo
+      CPE_NAME: cpe:/o:chomkeos:chomkeos:43
+      DEFAULT_HOSTNAME: chomkeos
+      HOME_URL: https://github.com/ClearStaff/chomkeos
+      DOCUMENTATION_URL: https://github.com/ClearStaff/chomkeos
+      SUPPORT_URL: None Support (Not Commercial Product...)
+      BUG_REPORT_URL: https://github.com/ClearStaff/chomkeos
+      REDHAT_BUGZILLA_PRODUCT: None (Not RedHat Product...)
+      REDHAT_BUGZILLA_PRODUCT_VERSION: None (Not RedHat Product...)
+      REDHAT_SUPPORT_PRODUCT: None (Not RedHat Product...)
+      REDHAT_SUPPORT_PRODUCT_VERSION: None (Not RedHat Product...)
+      SUPPORT_END: None Support (Not Commercial Product...)
+
 
   # Enable image signing
   - type: signing
