@@ -26,6 +26,8 @@ modules:
         - code # I hate using VSCode with Flatpak
         - heroic-games-launcher-bin # Flatpak Heroic has issues installing games outside of stores
         - Sunshine
+        # RGB
+        - openrgb
     remove:
       packages:
         - fcitx5
