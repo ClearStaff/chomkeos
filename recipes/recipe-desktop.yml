@@ -43,6 +43,8 @@ modules:
         - krfb
         - kwrite
         - plasma-welcome
+        # Due to package bug
+        - NetworkManager-openvpn
 
   - type: default-flatpaks
     configurations:
