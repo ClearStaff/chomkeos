@@ -50,6 +50,7 @@ modules:
         install:
           # General idea, if something has no issues working as flatpak then it should be flatpak
           # Gaming
+          - org.openrgb.OpenRGB
           - net.lutris.Lutris
           - org.prismlauncher.PrismLauncher
           # Graphical work
