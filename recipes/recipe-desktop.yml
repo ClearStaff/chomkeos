@@ -23,6 +23,7 @@ modules:
         - gparted
         - inotify-tools
         # Gaming
+        - gameconqueror
         - code # I hate using VSCode with Flatpak
         - heroic-games-launcher-bin # Flatpak Heroic has issues installing games outside of stores
         - Sunshine
